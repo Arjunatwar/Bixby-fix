@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="F23 Bixby Wake Fix" android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="Keeps Bixby software wake-word recognition alive after media/AEC stops." />
+        <meta-data android:name="xposedminversion" android:value="54" />
+    </application>
+</manifest>
